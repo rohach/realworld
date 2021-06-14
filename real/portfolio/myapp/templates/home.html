@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+{% endblock %}
+
+{% block content %}
+<div class=" container shadow bg-light">
+    <div style="text-align: center">
+        <img src="{% static 'images/doc.jpg' %}" class="img-fluid center shadow" style="height: 400px">
+    </div>
+    <div class="container text-center mt-4">
+        As pioneers in the healthcare segment, we understand the importance of trust.
+        And that is why, over the years, we worked on building that trust. We ensure
+        that every product sold through our offline/online stores/ every data that we provide are checked for accuracy.
+        This is also the main reason that customers feel more comfortable using our facilities.
+    </div>
+</div>
+    <div class="container-fluid text-center mt-lg-3" style="font-size: 40px">
+        <div class="container">
+            Our Facilities.
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row mt-3" style="text-align: center">
+            <span class="col-md-3">
+                <a href="#" style="text-decoration: none">
+                    <i class="fas fa-question fa-5x text-danger"></i>
+                        <div>
+                            <span class="text-danger">What is COVID?</span>
+                        </div>
+                </a>
+            </span>
+            <span class="col-md-3">
+                <a href="" style="text-decoration: none">
+                    <i class="fas fa-bar-chart fa-5x text-dark"></i>
+                        <div>
+                            <span class="text-dark">Total Cases</span>
+                        </div>
+                </a>
+            </span>
+            <span class="col-md-3">
+                <a href="{% url 'information' %}" style="text-decoration: none">
+                    <i class="fas fa-clipboard fa-5x text-primary"></i>
+                        <div>
+                            <span class="text-primary">Information</span>
+                        </div>
+                </a>
+            </span>
+            <span class="col-md-3">
+                <a href="" style="text-decoration: none">
+                    <i class="fas fa-tasks fa-5x text-success"></i>
+                        <div>
+                            <span class="text-success">How to cure</span>
+                        </div>
+                </a>
+            </span>
+        </div>
+
+
+
+       <div class="row mt-3" style="text-align: center">
+            <span class="col-md-3">
+                <a href="#" style="text-decoration: none">
+                    <i class="fas fa-clinic-medical fa-5x text-secondary"></i>
+                        <div>
+                            <span class="text-secondary">Hospitals</span>
+                        </div>
+                </a>
+            </span>
+            <span class="col-md-3">
+                <a href="" style="text-decoration: none">
+                    <i class="fas fa-user-md fa-5x fas fa-truck fa-5x text-info"></i>
+                        <div>
+                            <span class="text-info"> Online Doctors</span>
+                        </div>
+                </a>
+            </span>
+            <span class="col-md-3">
+                <a href="" style="text-decoration: none">
+                     <i class="fas fa-medkit fa-5x text-warning"></i>
+                        <div>
+                            <span class="text-warning">Medicines</span>
+                        </div>
+                </a>
+            </span>
+            <span class="col-md-3">
+                <a href="" style="text-decoration: none">
+                    <i class="fas fa-comment-medical fa-5x text-secondary"></i>
+                        <div>
+                            <span class="text-secondary">Feedback</span>
+                        </div>
+                </a>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--
+<div style="margin-top: 80px; margin-left: 50px">
+                       Phone <i class="fas fa-phone"></i> : +977-9868828760 <br>
+                      <br>Address <i class="fas fa-map-marker-alt"></i>: Hetauda-7, Makwanpur. Nepal <br>
+                      <br>Email <i class="fas fa-paper-plane"></i>: <a href="#" style="text-decoration: none">eaausadi1@gmail.com</a> <br>
+                      <br>Affiliated by <i class="fas fa-check-circle"></i>: MoHP, WHO, SOS. <br>
+                </div>
+                -->
+{% endblock %}

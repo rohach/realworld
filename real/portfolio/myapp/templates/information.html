@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+{% endblock %}
+
+{% block content %}
+<div style="text-align: center">
+    <div class="container-fluid img img-fluid">
+        <img src="{% static 'images/ma.jpeg' %}" style="width: 50%; height: 50vh">
+    </div>
+</div>
+<div style="text-align: center; font-size: 20px" class="container-fluid mt-2 bg-danger">
+    <span class="text-white">There's a current outbreak of Coranavirus(COVID-19) disease.</span>
+</div>
+{% endblock %}

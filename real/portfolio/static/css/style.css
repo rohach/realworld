@@ -1,0 +1,133 @@
+
+.travel{
+    background-color: #1fa12e;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.main_image{
+    width: 100% !important;
+    filter: brightness(45%);
+    object-fit: fill;
+    padding: 0 0 0 0 !important;
+}
+.impacts{
+    color: gray;
+    font-size: 15px;
+}
+.first {
+        background-color: gainsboro !important;
+        width: 100%;
+}
+.first-part {
+    margin-top: 80px;
+}
+.images{
+    border-radius: 15px;
+}
+images:hover{
+    filter: brightness(70%);
+    transition: .5s;
+}
+
+.foot{
+    margin-top: 50px;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    padding: 5px;
+}
+.last{
+    background-color: black;
+    color: #95999c;
+    font-family: Arial;
+}
+
+
+body {
+    /*background-color: #7B1FA2;*/
+}
+.images{
+    height: 80vh;
+}
+.imagess{
+    border-radius: 50px;
+}
+.imagess:hover{
+    filter: brightness(10%);
+    transition: .5s;
+}
+.footer-test{
+    margin-top: 100px;
+}
+.footer-head{
+    margin-top: 40px;
+}
+/*ul li a{*/
+/*    text-decoration: none !important;*/
+/*    color: gray !important;*/
+/*    list-style: none;*/
+/*}*/
+/*ul li a:hover{*/
+/*    color: white !important;*/
+/*}*/
+.icons{
+    filter: brightness(50%);
+}
+.icons:hover{
+    filter: brightness(100%);
+    transition: .3s;
+}
+.about{
+    color: #c82333;
+}
+.back_image{
+    width: 100% !important;
+}
+.back_image{
+        width: 100% !important;
+        filter: brightness(50%);
+        height: 90vh;
+    }
+
+    /* Centered text */
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+.login-box{
+        text-align: center !important;
+        background-color: grey !important;
+
+}
+.heading{
+    color: orange;
+    font-family: Comic Sans MS;
+}
+.row_div{
+    text-align: center !important;
+}
+.admin-image{
+    height: 100vh !important;
+    width: 100% !important;
+}
+
+.button-login{
+    background-color: orange !important;
+    width: 100px;
+}
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100% !important;
+    pointer-events: none;
+  }
+
+  /* .abcd{
+      height: 50vh;
+  } */
